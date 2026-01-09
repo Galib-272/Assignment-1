@@ -2,8 +2,10 @@
   padding: 0;
   margin: 0;
   font-family: "Inter";
+}
+.body-section {
   max-width: 1600px;
-  max-height: 2908px;
+  min-height: 2908px;
 }
 /* navbar */
 .navbar {
