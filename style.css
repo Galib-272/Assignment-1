@@ -101,7 +101,8 @@
   flex-direction: column;
   align-items: center;
 }
-.btn1 {
+.btn1,
+.btn2 {
   font-weight: 600;
   font-size: 16px;
   width: 251px;
@@ -111,27 +112,37 @@
   padding: 12px 16px 12px 16px;
   border-radius: 4px;
   background-color: rgba(70, 145, 101, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.btn1 img {
+  margin-left: 10px;
+}
+.btn2 img {
+  margin-right: 10px;
 }
 .btn2 {
-  font-weight: 600;
-  font-size: 16px;
-  width: 198px;
-  height: 52px;
-  color: white;
-  padding: 12px 16px 12px 16px;
-  border-radius: 4px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 1);
 }
 .section-1-btn {
   margin-bottom: 179.5px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.btn1,
+.btn1:hover,
 .btn2:hover {
   cursor: pointer;
 }
 /* section-2 */
 /* cards */
+.section-2 {
+  background-color: whitesmoke;
+}
 .cards img {
   width: 32px;
   height: 32px;
@@ -155,7 +166,7 @@
   padding: 24px;
   text-align: center;
   border-radius: 8px;
-  background-color: whitesmoke;
+  background-color: white;
 }
 .card-container {
   display: flex;
@@ -172,8 +183,9 @@
   font-size: 48px;
   font-weight: 700;
   text-align: center;
-  margin-top: 50px;
+  padding-top: 116px;
 }
+
 #section-2-p {
   font-size: 16px;
   font-weight: 400;
@@ -253,7 +265,40 @@
   gap: 10px;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
-.getearly-img{
+.getearly-btn:hover {
+  cursor: pointer;
+}
+.getearly-img {
   margin-top: 5px;
+}
+/* section-5 */
+.footer-container-card {
+  /* background-color: rgba(0, 25, 49, 1); */
+  /* height: 348px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 120px 80px 120px;
+}
+.footer-container {
+  background-color: rgba(0, 25, 49, 1);
+  height: 348px;
+  color: rgba(229, 231, 235, 1);
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-container-img2 p {
+  margin-bottom: 16px;
+}
+.line {
+  margin: 0px 120px;
+  border: 1px solid rgba(229, 231, 235, 0.3);
+}
+.footer-copyright {
+  margin: 30px 120px;
 }
